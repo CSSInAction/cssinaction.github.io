@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+}
+
+/*
+ * Header section
+ */
+.page-header {
+  background-color: #fff;
+  padding: 1em 4em;
+}
+
+.page-header h1 {
+  color: #333;
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  margin: .2em 0;
+}
+
+.slogan {
+  color: #888;
+  font-size: .875em;
+  margin-bottom: 1em;
+}
+
+/*
+ * Hero image
+ */
+.hero {
+  padding: 5em 6em;
+  font-size: 1.2em;
+  text-align: center;
+  background-image: url(/images/coffee-beans.jpg);
+  color: #fff;
+}
+
+/*
+ * Main section
+ */
+ main {
+   padding: 2em 4em;
+ }
+
+.row {
+  display: flex;
+  margin-left: -.5em;
+  margin-right: -.5em;
+ }
+
+.column {
+  flex: 1;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+.column h2 {
+  margin-bottom: 1.5em;
+  font-size: .875em;
+  text-transform: uppercase;
+}
+
+/*
+ * Links
+ */
+a:link {
+  color: hsl(204, 80%, 40%);
+  font-weight: bold;
+  text-decoration: none;
+}
+a:visited {
+  color: hsl(230, 80%, 40%);
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: hsl(0, 80%, 40%);
+}
