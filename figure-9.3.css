@@ -50,18 +50,24 @@ body {
 /*
  * Main section
  */
- main {
-   padding: 2em 4em;
- }
+main {
+  padding: 2em 4em;
+}
 
 .row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin-left: -.5em;
   margin-right: -.5em;
- }
+}
 
 .column {
-  flex: 1;
+  float: left;
+  width: calc(33% - 1em);
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   margin-left: .5em;
   margin-right: .5em;
 }
